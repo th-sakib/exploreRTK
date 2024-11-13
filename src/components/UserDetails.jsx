@@ -2,6 +2,7 @@ import React from "react";
 import { fakeUserData } from "../api";
 import { useDispatch } from "react-redux";
 import { addUser } from "../store/slices/UserSlice";
+import UserDetailView from "./UserDetailView";
 
 const UserDetails = () => {
   const dispatch = useDispatch();
@@ -19,7 +20,7 @@ const UserDetails = () => {
         </button>
       </div>
       <ul className="list-disc">
-        <li>hi</li>
+        <UserDetailView />
       </ul>
 
       <div className="divider"></div>
