@@ -16,7 +16,7 @@ const UserDetailView = () => {
     <div>
       {data.map((user, id) => {
         return (
-          <li className="flex justify-between items-center" key={id}>
+          <li className="flex justify-between items-center my-2" key={id}>
             {user}{" "}
             <button
               className="btn btn-warning"
