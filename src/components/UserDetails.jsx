@@ -13,13 +13,13 @@ const UserDetails = () => {
 
   return (
     <div className="flex flex-col justify-between items-center">
-      <div className="flex justify-around items-center w-[70vw] ">
+      <div className="flex justify-between items-center w-[70vw] ">
         <h1 className="text-4xl">list of user details</h1>
         <button className="btn" onClick={() => addNewUser(fakeUserData())}>
           Add new user
         </button>
       </div>
-      <ul className="list-disc">
+      <ul className="list-disc w-[70vw] mt-9">
         <UserDetailView />
       </ul>
 
