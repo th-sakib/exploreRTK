@@ -6,15 +6,7 @@ Welcome to my personal GitHub repository! This repo is dedicated to my coding pr
 This repository serves as a space where I explore various technologies, try out new concepts, and improve my skills. It includes:
 - Practice projects
 - Code snippets
-- Algorithm & data structure exercises
-- Experimentation with different frameworks & libraries
-
-## Technologies Used
-I primarily work with:
-- **Frontend:** HTML, CSS, JavaScript, React, Next.js
-- **Backend:** Node.js, Express, Laravel
-- **Database:** MongoDB, MySQL
-- **Other Tools:** Git, GitHub, Postman, Docker (if applicable)
+- RTK Query and Redux related Concepts
 
 ## How I Use This Repo
 - Creating small projects to test new ideas
